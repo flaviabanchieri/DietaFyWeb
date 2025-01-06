@@ -1,9 +1,9 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
 
-import { ComponentsModule } from '../components/components.module'
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core'
 import { Home } from './home.component'
+import { CommonModule } from '@angular/common'
+import { ComponentsModule } from 'src/app/components/components.module'
+import { RouterModule } from '@angular/router'
 
 const routes = [
   {
